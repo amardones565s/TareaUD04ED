@@ -15,9 +15,9 @@ public class Main {
 	private static void operativaCuenta(Float cantidad) {
 		CuentaBanco cuentaPersonal;
 		double saldoActual;
-		cuentaPersonal = new CuentaBanco("Antonio López","1000-2365-85-1230456789",2500,0);
+		cuentaPersonal = new CuentaBanco("Antonio López","1000-2365-85-1230456789",5000,0);
         saldoActual = cuentaPersonal.estado();
-        System.out.println("El saldo actual es"+ saldoActual );
+        System.out.println("Tu saldo actual es"+ saldoActual );
 
         try {
             cuentaPersonal.retirar(2300);
